@@ -800,7 +800,16 @@ table.columns .left-text-pad.social_sec h5{ font-family:Arial, Helvetica, sans-s
 .wrapper.last.btm td p a{ color:#2c2c2c; font-family:Arial, Helvetica, sans-serif; font-size:11px; font-weight:normal; text-transform:uppercase;}
 .wrapper.last.btm td p { padding-top:10px;}
 .header  td.wrapper{ padding-bottom:10px;}
-.container .row.footer{ width:99% !important;}
+.container .row.footer{ width:99% !important; }
+
+.footwrap td.social_sec table tr td {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    border: medium none !important;
+    width: 27px !important;
+}
+.row.callout.callout_red {
+    background: none repeat scroll 0 0 #e40a04;
+}
 
     @media only screen and (max-width: 600px) {
 
@@ -821,7 +830,8 @@ table.columns .left-text-pad.social_sec h5{ font-family:Arial, Helvetica, sans-s
 	  table.twelve h4{ font-size:22px;}
 	  .footer .footwrap, .footer .fwrapper{ border:none; }
 	  .wrapper.last.btm{ border-top:1px solid #cdcdcd;}
-	 
+	 hr.hr_line{ display:block;}
+	 .container .row.footer{ background:url(images/boder_bg.jpg) repeat-x 0 5px;}
     }
 
   </style>
@@ -966,36 +976,15 @@ table.columns .left-text-pad.social_sec h5{ font-family:Arial, Helvetica, sans-s
 
                             <h5>Connect With Us:</h5>
                             	
-                                
+                                <table width="80" border="0" cellpadding="0" cellspacing="2">
+  <tr>
+    <td><a href="#"><img src="images/facebook.jpg" width="24" height="24" alt="" /> </a></td>
+    <td><a href="#"><img src="images/twiter.jpg" width="24" height="24" alt="" /> </a></td>
+    <td><a href="#"><img src="images/google_plus.jpg"  width="24" height="24" alt="" /> </a></td>
+  </tr>
+</table>
 
-
-                            <table class="tiny-button facebook new_table">
-                              <tr>
-                                <td>
-                                  <a href="#"><img src="images/facebook.jpg" width="24" height="24" alt="" /></a>
-                                </td>
-                              </tr>
-                            </table>
-
-                          
-
-                            <table class="tiny-button twitter new_table">
-                              <tr>
-                                <td>
-                                  <a href="#"><img src="images/twiter.jpg" width="24" height="24" alt="" /></a>
-                                </td>
-                              </tr>
-                            </table>
-
-                         
-
-                            <table class="tiny-button google-plus new_table">
-                              <tr>
-                                <td>
-                                  <a href="#"><img src="images/google_plus.jpg"  width="24" height="24" alt="" /></a>
-                                </td>
-                              </tr>
-                            </table>
+                            
 
                           </td>
                           <td class="expander"></td>
@@ -1003,6 +992,7 @@ table.columns .left-text-pad.social_sec h5{ font-family:Arial, Helvetica, sans-s
                       </table>
 
                     </td>
+                    
                     <td class="wrapper last fwrapper">
 
                       <table class="six columns">
@@ -1017,6 +1007,7 @@ table.columns .left-text-pad.social_sec h5{ font-family:Arial, Helvetica, sans-s
                       </table>
 
                     </td>
+                    
                   </tr>
                 </table>
 
